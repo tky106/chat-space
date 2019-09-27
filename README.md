@@ -25,7 +25,7 @@ Things you may want to cover:
 ## users
 |Column|Type|Options|
 |------|----|-------|
-|username|string|null: false|
+|user_name|string|null: false|
 |email|string|null: false|
 |password|string|null: false|
 
@@ -47,8 +47,8 @@ Things you may want to cover:
 ## groups
 |Column|Type|Options|
 |------|----|-------|
-|groupname|string|null: false|
-|addeduser|string|null: false|
+|group_name|string|null: false|
+|added_user|string|null: false|
 
 ### Association 
 - has_many :users through: :groups-users
