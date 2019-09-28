@@ -47,7 +47,7 @@ Things you may want to cover:
 ## groups
 |Column|Type|Options|
 |------|----|-------|
-|group_name|string|null: false|
+|name|string|null: false|
 |added_user|string|null: false|
 
 ### Association 
