@@ -31,10 +31,10 @@ Things you may want to cover:
 
 ### Association
 - has_many :tweets
-- has_many :groups through: :groups-users
-- has_many :groups-users
+- has_many :groups through: :groups_users
+- has_many :groups_users
 
-## groups-users
+## groups_users
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
@@ -51,8 +51,8 @@ Things you may want to cover:
 |added_user|string|null: false|
 
 ### Association 
-- has_many :users through: :groups-users
-- has_many :groups-users
+- has_many :users through: :groups_users
+- has_many :groups_users
 
 ## tweets
 |Column|Type|Options|
