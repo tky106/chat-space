@@ -3,6 +3,11 @@
   text-align: center;
   color: white;
 }
-th {
-  display: block;
+thead {
+  background-color: #2f3e51;
+  th {
+    display: block;
+    width: 300px;
+  }
+
 }
